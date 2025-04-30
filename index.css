@@ -1,0 +1,12 @@
+.navigation{
+    border: solid;
+    width:550px;
+    background-color:grey;
+}
+.description{
+    border: solid;
+    width: 200px;
+    align-items: center;
+    justify-items: center;
+    background-color:darkgrey;
+}
