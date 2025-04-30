@@ -11,7 +11,9 @@
     background-color:darkgrey;
     justify-content: space-evenly;
     align-content: space-evenly;
-    gap:100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .lists{
     display: flex;
