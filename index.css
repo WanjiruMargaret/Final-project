@@ -26,5 +26,16 @@
 
 }
 .form-list{
-    gap: 100px;
+    align-content: center;
+    justify-content: center;
+    display: grid;
+}
+.card-list{
+    border: solid black;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    border-radius:3000px ;
+    background-color:palevioletred;
 }

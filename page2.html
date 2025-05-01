@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="./index.css">
         <script src="./index.js" defer></script>
     </head>
-    <body style="background-color: dimgrey;">
+    <body style="background-color:pink;">
         <nav class="navigation">
             <a href="index.html">HOME</a>
             <a href="page1.html" button>GO TO PAGE 1</a>
@@ -16,46 +16,61 @@
                 <h2>Services</h2>
                 <p>There are many types of apps that one can acess the novels:</p>
             </div>
-            <div>
+            <br>
+            <div class="card-list">
                 <p>NovelUP</p>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTocV4D099GJVPZh1uBgFt5Ne4_22SVvLcizdoAua7HBeCv2AtPa2KbmEA&s" alt="PICS"> 
             </div>
-            <div>
+            <br>
+            <div class="card-list">
                 <p>Novel Full</p>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2GE5VwYXy1Kvu3GIwnFPlJFvPJQflmJ4Jpc6jr8NefvIW5K-AYx5xfOM&s" alt="PICS">
             </div>
-            <div>
+            <br>
+            <div class="card-list">
                 <p>GoodNovel</p>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMpoABdlFJ1KXMmeQPLcIYX6JTh0csndnBuF3nRtnXt4DeFIv2pvtNOXE&s" alt="PICS">
             </div>
-            <div>
+            <br>
+            <div class="card-list">
                 <p>Apple Books</p>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXdogc3tUxjv9ENQtg_wdGa-FXlFw3D3EqXQ&s" alt="PICS">
             </div>
-            <div>
+            <br>
+            <div class="card-list">
                 <p>All Full Novels</p>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtlY3EIi77XkChSfO7ZulOuRYmyDLViN6UqQ&s" alt="PICS">
             </div>
-            <div>
+            <br>
+            <div class="card-list">
                 <p>My passion</p>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQutXppQKMPipyzy_LlvJGhgrQL7aRvm6dz2QFD72oZr_4b7XiKIlQNbsspWABjtFDqeP0&usqp=CAU"alt="PICS">
             </div>
-            <div>
+            <br>
+            <div class="card-list">
                 <p>Romance novels</p>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHlqjUATneEMZ7fl_aQSqndWyAd1X0EqxXCQXd6Kr4jPIh3F4vsH-qMS76DHR5_WZIrFc&usqp=CAU" alt="PICS">
             </div>
+            <br>
      </section>
      <section>
-        <form class="form-list">
-            <input type="text" placeholder="Title" id="title">
+        <form class="form-list" id="userForm">
+            <input type="text" placeholder="Full Name" id="name" required>
             <br>
-            <input type="text" placeholder="Author" id="author">
             <br>
-            <input type="text" placeholder="Description" id="description">
+            <input type="text" placeholder="Age" id="age" required>
             <br>
-            <input type="url" placeholder="Book cover" id="image">
             <br>
-            <button type="submit">Add Novel</button>
+            <input type="text" placeholder="gmail account" id="accounts" required>
+            <br>
+            <br>
+            <input type="number" placeholder="Telephone number" id="number" required>
+            <br>
+            <br>
+            <input type="text" placeholder="Little description of yourself" id="description">
+            <br>
+            <br>
+            <button type="submit">Submit</button>
             <br>
         </form>
         <div id="novelList"></div>
