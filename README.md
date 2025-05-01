@@ -12,8 +12,7 @@ Users can access apps to read novels directly through the site.
 The application works smoothly on all major browsers (Chrome, Firefox, Safari, etc.).
 
 Known Bugs
-Some buttons are not working as expected. These issues are under review, and the bugs will be fixed soon.Also some of the "READ" buttons are functioning as they should be aware
-
+Some buttons are not working as expected. These issues are currently under review, and we plan to fix the bugs soon. While a few 'READ' buttons are functioning properly, others may not be responsive yet.
 Technologies Used
 HTML: For the structure of the web page.
 
