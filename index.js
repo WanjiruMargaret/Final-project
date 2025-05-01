@@ -24,7 +24,6 @@ function displayUserInfo(data){
     <p>${data.age}</p>
     <p>${data.accounts}</p>
     <p>${data.number}</p>
-    <p>${data.number}</p>
     <p>${data.description}</p> 
     `
 }
