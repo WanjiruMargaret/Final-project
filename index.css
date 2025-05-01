@@ -20,7 +20,8 @@
 }
 .footer{
     border: solid black;
-    width: 450px;
+    width: 600px;
     border-radius: 10px;
+    background-color: bisque;
 
 }
