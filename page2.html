@@ -3,7 +3,7 @@
     <head>
         <title>Book lover's corner</title>
         <link rel="stylesheet" href="./index.css">
-        <script src="./index.js" defer></script>
+        <script src="index.js" defer></script>
     </head>
     <body style="background-color:pink;">
         <nav class="navigation">
@@ -55,16 +55,16 @@
      </section>
      <section>
         <form class="form-list" id="userForm">
-            <input type="text" placeholder="Full Name" id="name" required>
+            <input type="text" placeholder="Name" id="name" required>
             <br>
             <br>
-            <input type="text" placeholder="Age" id="age" required>
+            <input type="number" placeholder="Age" id="age" required>
             <br>
             <br>
             <input type="text" placeholder="gmail account" id="accounts" required>
             <br>
             <br>
-            <input type="number" placeholder="Telephone number" id="number" required>
+            <input type="text" placeholder="Telephone number" id="number" required>
             <br>
             <br>
             <input type="text" placeholder="Little description of yourself" id="description">
@@ -73,8 +73,9 @@
             <button type="submit">Submit</button>
             <br>
         </form>
-        <div id="novelList"></div>
+        <div id="userInfoDisplay"></div>
      </section>
+     <script src="index.js"></script>
     </body>
     <br>
     <footer class="footer" style="background-color:grey;">
